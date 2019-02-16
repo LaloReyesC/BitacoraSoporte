@@ -45,6 +45,7 @@
     <Compile Include="Entities\CatalogoProductos.cs" />
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\EstatusSoporte.cs" />
+    <Compile Include="Entities\EvidenciasSoporte.cs" />
     <Compile Include="Entities\Notificacion.cs" />
     <Compile Include="Entities\ProductosCliente.cs" />
     <Compile Include="Entities\Solicitante.cs" />

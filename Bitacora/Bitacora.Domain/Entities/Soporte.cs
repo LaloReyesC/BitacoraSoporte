@@ -5,7 +5,6 @@ namespace Bitacora.Domain.Entities
 {
     public class Soporte
     {
-        //TODO: Implementar carga de evidencia al finalizar el proceso.
         #region Constructors
         public Soporte()
         {

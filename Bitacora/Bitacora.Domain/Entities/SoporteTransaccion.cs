@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Bitacora.Domain.Entities
 {
+    //TODO: Implementar carga de evidencia al finalizar el proceso.
     public class SoporteTransaccion
     {
         #region Fields
@@ -10,6 +12,7 @@ namespace Bitacora.Domain.Entities
         private int _IdEstatus;
         private EstatusSoporte _EstatusSoporte;
         private DateTime _FechaTransaccion;
+        private ICollection<EvidenciasSoporte> _EvidenciasSoporte;
         #endregion
 
         #region Properties
@@ -41,6 +44,12 @@ namespace Bitacora.Domain.Entities
         {
             get { return _FechaTransaccion; }
             set { _FechaTransaccion = value; }
+        }
+
+        public ICollection<EvidenciasSoporte> EvidenciasSoporte
+        {
+            get { return _EvidenciasSoporte; }
+            set { _EvidenciasSoporte = value; }
         }
         #endregion
     }
