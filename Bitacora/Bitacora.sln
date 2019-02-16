@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitacora.Domain", "Bitacora.Domain\Bitacora.Domain.csproj", "{4A0A124A-0E4E-49F0-933E-6F9539B077AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A0A124A-0E4E-49F0-933E-6F9539B077AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0A124A-0E4E-49F0-933E-6F9539B077AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0A124A-0E4E-49F0-933E-6F9539B077AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0A124A-0E4E-49F0-933E-6F9539B077AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {982A00CA-F5DB-403B-93E8-3319F8977697}
+	EndGlobalSection
+EndGlobal
